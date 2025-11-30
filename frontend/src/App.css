@@ -1,0 +1,140 @@
+body {
+  background: linear-gradient(180deg, #0b1839, #041024);
+  color: white;
+  font-family: Poppins, sans-serif;
+}
+
+.app {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #4db4ff;
+}
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  background: #102040;
+  border: none;
+  color: white;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  background: #4db4ff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.unit-toggle {
+  display: flex;
+  gap: 5px;
+}
+
+.unit-toggle button {
+  padding: 10px;
+  background: #102040;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+}
+
+.unit-toggle .active {
+  background: #4db4ff;
+  color: black;
+}
+
+.error-box {
+  background: #ff4e4e;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* LEFT */
+.left {
+  background: rgba(255, 255, 255, 0.07);
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.current {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.current img {
+  width: 80px;
+}
+
+.grid {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hourly {
+  display: flex;
+  overflow-x: auto;
+  gap: 15px;
+  padding-top: 10px;
+}
+
+.hour {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.hour img {
+  width: 40px;
+}
+
+/* RIGHT */
+.right {
+  background: rgba(255, 255, 255, 0.07);
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.day-row {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.day-right img {
+  width: 40px;
+}
